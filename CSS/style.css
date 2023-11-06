@@ -1,0 +1,43 @@
+/* Navigational Styling */
+#mainnav {
+    background: #ff0057;
+    text-decoration: none;
+}
+.navbar-brand {
+    text-decoration: none;
+    color: white;
+}
+.dropdown-menu {
+    background: linear-gradient(45deg, #ff0057, #2196f3); 
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    background-color: #2196f3;
+    padding: 1px;
+    border-radius: 10px;
+}
+.nav-item {
+    margin: 3px;
+}
+
+#nav-link:hover {
+    background-color:#ff0057;
+}
+
+/* Hero Sectiomn */
+.hero {
+    margin: 0px;
+    background: linear-gradient(45deg, #ff0057, #2196f3);
+    display: flex;
+}
+
+.self-image {
+    height: auto;
+    width: 300px;
+    background-image: url(../Images/Image\ Self.jpg);
+    justify-content: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}q
