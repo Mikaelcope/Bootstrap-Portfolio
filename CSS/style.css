@@ -7,11 +7,16 @@ body {
     background: #0B0C10;
     text-decoration: none;
 }
+
+.navbar {
+    padding: 0px;
+}
+
 .navbar-brand {
     text-decoration: none;
     color: #C5C6C7;
-    padding: 5px;
 }
+
 #Miki:hover {
     background-color: #66FCF1;
     box-shadow:4px 4px 4px #0B0C10 inset;
@@ -22,6 +27,7 @@ body {
     text-decoration: none;
     color: #0B0C10;
 }
+
 #dropmen1:hover, #dropmen2:hover {
     background-color: #66FCF1;
     box-shadow: 4px 4px 4px #0B0C10 inset;
@@ -42,7 +48,7 @@ body {
     background-color:#0B0C10;
     text-decoration: none;
     color: #66FCF1;
-    box-shadow: 1px 1px 1px #C5C6C7;
+    box-shadow: 5px 5px 5px #C5C6C7;
 }
 
 /* Hero Sectiomn */
@@ -73,6 +79,7 @@ body {
     background-size:100%;
     text-decoration: none;
     color: #66FCF1;
+    padding: 10px;
 }
 
 /* Work Section */
@@ -81,17 +88,20 @@ body {
     color: #66FCF1;
     font-size: xx-large;
 }
-.card_1, .card_2, .card_3, .card_4 {
+
+.card_5, .card_2, .card_3, .card_4 {
     height: 300px;
     margin: 5px;
     font-size: large;
 }
+
 .card-title {
     display: flex;
     text-decoration: none;
     color:#66FCF1;
     background-color:#0B0C10;
 }
+
 .card-text {
     padding: 8px;
     display: flex;
@@ -101,16 +111,22 @@ body {
     background-image: linear-gradient(135deg,#66FCF1, transparent);
 }
 
+#work1:hover, #work2:hover, #work3:hover, #work4:hover {
+    background-color:#0B0C10;
+    text-decoration: none;
+    color: #66FCF1;
+    box-shadow: 10px 10px 10px #C5C6C7;
+}
+
 .row {
     margin: 20px;
 }
 
-.btn
-
-.card_1 {
+.card_5 {
     display: flex;
-    background-image: url(../Images/Screenshot.png);
-    background-size:contain;
+    position: relative;
+    background-image: url(../Images/Screenshot.jpg);
+    background-size: cover;
 }
 
 .card_2 {
@@ -142,20 +158,22 @@ body {
     width: 70px;
     height: 70px;
     font-size: x-large;
-
 }
+
 #mailicon :hover, #hyperlinked :hover {
     background-color: #66FCF1;
     box-shadow: 10px 20px 3px #0B0C10;
     width: 50px;
     height: 30px;
 }
+
 /* Footer */
 .card {
     background-color: #C5C6C7;
     text-decoration: none;
     color:#0B0C10;
 }
+
 .card-header {
     font-size: x-large;
 }
