@@ -3,39 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mikael Cope Bootstrap Bill</title>
+    <title>Mikael Cope Bootstrap Profile</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/cf4a278451.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid" id="mainnav">
-          <a class="navbar-brand" href="#">Mikael Cope</a>
+          <a class="navbar-brand" href="#Hero" id="Miki">Mikael Cope</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#" id="nav-link">About</a>
+                <a class="nav-link" href="#aboutme" id="nav-link">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" id="nav-link">Skills</a>
+                <a class="nav-link" href="#features" id="nav-link">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" id="nav-link">Previous Work</a>
+                <a class="nav-link" href="#work" id="nav-link">Previous Work</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="nav-link">
                   Get in Touch
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Whatsapp</a></li>
-                  <li><a class="dropdown-item" href="#">Email</a></li>
-                  <li><a class="dropdown-item" href="#">Linked In</a></li>
+                <ul class="dropdown-menu" id="Dropmen">
+                  <li><a href="mailto:copemikael@gmail.com" class="dropdown-item" id="dropmen1">Email</a></li>
+                  <li><a href="https://www.linkedin.com/in/mikael-cope-535736190" target="_blank" class="dropdown-item" id="dropmen2">Linked In</a></li>
                 </ul>
               </li>
             </ul>
@@ -59,7 +59,7 @@
           <div class="row">
             <div class="col-lg-4">
               <div class="skills-item mx-auto mb-5 mb-lg-0">
-                <img class="img-fluid rounded-circle mb-3" src="images/testimonials-1.jpg" alt="">
+                <img class="img-fluid rounded-circle mb-3" src="Images/Cube.jpg" alt="Multiple Cube Dark Image">
                 <h5>Debugging!</h5>
                 <p class="fw-light mb-0">I love problem solving. <br>
                     Breaking things down to their basic componanets and building them up again. <br>
@@ -68,7 +68,7 @@
             </div>
             <div class="col-lg-4">
               <div class="tskills-item mx-auto mb-5 mb-lg-0">
-                <img class="img-fluid rounded-circle mb-3" src="images/testimonials-3.jpg" alt="">
+                <img class="img-fluid rounded-circle mb-3" src="Images/Patience.jpg" alt="Hour Glass on Stones">
                 <h5>Patience!</h5>
                 <p class="fw-light mb-0">Complex problems can take time to solve. <br>
                 The ability to take the time to figure it out and not throw a laptop out the window! </p>
@@ -76,7 +76,7 @@
             </div>
             <div class="col-lg-4">
               <div class="skills-item mx-auto mb-5 mb-lg-0">
-                <img class="img-fluid rounded-circle mb-3" src="images/testimonials-2.jpg" alt="">
+                <img class="img-fluid rounded-circle mb-3" src="Images/Astronaught.jpg" alt="Astronaught in Space Cartoon">
                 <h5>Cutting edge ideas!</h5>
                 <p class="fw-light mb-0"> If your not on the forefront, your on the back foot. <br>
                 expanding my skill and boundaries by challenging the norm. </p>
@@ -87,57 +87,77 @@
       </section>
 
       <!-- Work Section -->
-      <Main class="container">What I do!
+      <Main class="container workcontainer" id="work"> What I Do! (Note some projects are placeholders.)
         <div class="row">
             <div class="col-sm-6 mb-3 mb-sm-0">
-              <div class="card">
+              <div class="card_1">
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Mikael Porfolio</h5>
+                  <p class="card-text">My first project as a project lead. Creating a profile for potential employers.</p>
+                  <a href="https://mikaelcope.github.io/Mikael_Portfolio/" target="_blank" class="btn btn-primary">Click Here to View Work</a>
                 </div>
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="card">
+              <div class="card_2">
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">YouTube</h5>
+                  <p class="card-text">Created a video viewing platform that allows companies to advertise at a cost.</p>
+                  <a href="https://www.youtube.com/" target="_blank" class="btn btn-primary">Click Here to View Work</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-sm-6 mb-3 mb-sm-0">
-              <div class="card">
+              <div class="card_3">
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Facebook</h5>
+                  <p class="card-text">Creating an interactive site that is multi faceted and has the potential to generate advertising revenue.</p>
+                  <a href="https://web.facebook.com/" target="_blank" class="btn btn-primary">Click Here to View Work</a>
                 </div>
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="card">
+              <div class="card_4">
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Netflix</h5>
+                  <p class="card-text">Created a platform for end users to enjoy a viewing platform with a monthly subscription.</p>
+                  <a href="https://www.netflix.com/" target="_blank" class="btn btn-primary">Click Here to View Work</a>
                 </div>
               </div>
             </div>
           </div>
       </Main>
-      <div class="p-5 mb-4 bg-body-tertiary rounded-3 rockBackground">
+
+      <!-- About Section -->
+      <div class="p-5 mb-4 bg-body-tertiary rounded-3 rockBackground" id="aboutme">
         <div class="container-fluid py-5 jumboCopy">
           <h1 class="display-5 fw-bold">About Me</h1>
           <p class="col-md-12 fs-4">I belive I am a practicle problem solver.  <br>I love a challenge!
             This is why I love the process of debugging so much. I love to discect a problem into its smaller parts and understand its inner workings.
             I am slowly pushing my boundries in creativity and look forward to my web journey.</p>
+            
         </div>
       </div>
-      
+      <!-- Footer -->
+      <footer class="card">
+        <div class="card-header">
+          Get in Touch
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>“Connecting with others gives us a sense of inclusion, connection, interaction, safety, and community. Your vibe attracts your tribe, so if you want to attract positive and healthy relationships, be one! Staying connected and getting reconnected feeds the flow of goodness which empowers our humanity.”</p>
+            <footer class="blockquote-footer">Susan C. Young <cite title="Source Title">GoodReads</cite></footer>
+          </blockquote>
+          <a href="mailto:copemikael@gmail.com" class="mailicon" id="mailicon">
+            <i class="fa-solid fa-envelope fa-bounce fa-2xl" style="color: #000000;"></i></a>
+            <a href="https://www.linkedin.com/in/mikael-cope-535736190" target="_blank" class="linkicon" id="mailicon">
+              <i class="fa-brands fa-linkedin fa-shake fa-2xl" style="color: #000000;" id="hyperlinked"></i></a>
+        </div>
+      </footer>     
+
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>  
 </body>

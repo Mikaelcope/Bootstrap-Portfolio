@@ -1,20 +1,36 @@
+/* Page Styling */
+body {
+    background-color: #0B0C10;
+}
 /* Navigational Styling */
 #mainnav {
-    background: #ff0057;
+    background: #0B0C10;
     text-decoration: none;
 }
 .navbar-brand {
     text-decoration: none;
-    color: white;
+    color: #C5C6C7;
+    padding: 5px;
 }
+#Miki:hover {
+    background-color: #66FCF1;
+    box-shadow:4px 4px 4px #0B0C10 inset;
+}
+
 .dropdown-menu {
-    background: linear-gradient(45deg, #ff0057, #2196f3); 
+    background: #C5C6C7; 
+    text-decoration: none;
+    color: #0B0C10;
+}
+#dropmen1:hover, #dropmen2:hover {
+    background-color: #66FCF1;
+    box-shadow: 4px 4px 4px #0B0C10 inset;
 }
 
 .nav-link {
     text-decoration: none;
-    color: white;
-    background-color: #2196f3;
+    color: #0B0C10;
+    background-color: #66FCF1;
     padding: 1px;
     border-radius: 10px;
 }
@@ -23,21 +39,123 @@
 }
 
 #nav-link:hover {
-    background-color:#ff0057;
+    background-color:#0B0C10;
+    text-decoration: none;
+    color: #66FCF1;
+    box-shadow: 1px 1px 1px #C5C6C7;
 }
 
 /* Hero Sectiomn */
 .hero {
     margin: 0px;
-    background: linear-gradient(45deg, #ff0057, #2196f3);
+    background-image: url(../Images/tom-morel-ktVazL5c7FM-unsplash\ \(1\).jpg);
     display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #66FCF1;
+    margin: 0px;
 }
 
 .self-image {
     height: auto;
     width: 300px;
     background-image: url(../Images/Image\ Self.jpg);
+    opacity: 0.5;
     justify-content: right;
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
-}q
+}
+
+/* Skills Section */
+.skills {
+    background-image: url(../Images/Black\ Stairs.jpg);
+    background-size:100%;
+    text-decoration: none;
+    color: #66FCF1;
+}
+
+/* Work Section */
+.workcontainer {
+    text-decoration: none;
+    color: #66FCF1;
+    font-size: xx-large;
+}
+.card_1, .card_2, .card_3, .card_4 {
+    height: 300px;
+    margin: 5px;
+    font-size: large;
+}
+.card-title {
+    display: flex;
+    text-decoration: none;
+    color:#66FCF1;
+    background-color:#0B0C10;
+}
+.card-text {
+    padding: 8px;
+    display: flex;
+    text-decoration: none;
+    color:#0B0C10;
+    width: 150px;
+    background-image: linear-gradient(135deg,#66FCF1, transparent);
+}
+
+.row {
+    margin: 20px;
+}
+
+.btn
+
+.card_1 {
+    display: flex;
+    background-image: url(../Images/Screenshot.png);
+    background-size:contain;
+}
+
+.card_2 {
+    background-image: url(../Images/YouTube.jpg);
+    background-size:contain;
+}
+
+.card_3 {
+    background-image: url(../Images/Facebook.jpg);
+    background-size:contain;
+}
+
+.card_4{
+    background-image: url(../Images/Netflix.jpg);
+    background-size:contain;
+}
+
+/* About Section */
+.rockBackground {
+    background-image: url(../Images/aditya-chinchure-S1ToogvRvlU-unsplash\ \(1\).jpg);
+    background-size: 100%;
+    text-decoration: none;
+    color: #66FCF1;
+}
+
+/* Hyperlinks */
+.mailicon, .linkicon {
+    background-color: #66FCF1;
+    width: 70px;
+    height: 70px;
+    font-size: x-large;
+
+}
+#mailicon :hover, #hyperlinked :hover {
+    background-color: #66FCF1;
+    box-shadow: 10px 20px 3px #0B0C10;
+    width: 50px;
+    height: 30px;
+}
+/* Footer */
+.card {
+    background-color: #C5C6C7;
+    text-decoration: none;
+    color:#0B0C10;
+}
+.card-header {
+    font-size: x-large;
+}
