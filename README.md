@@ -11,7 +11,7 @@ https://mikaelcope.github.io/Bootstrap-Portfolio/
 
 ### Usage
 Once the URL has loaded this is what you will see: 
-![alt text](/images/Screenshot%202.png)
+![alt text](./Images/Screenshot%202.png)
 The navigational buttons will direct you through the page.
 The previous work display has link buttons to the webpages.
 There are hyperlinks and a drop down to get in touch.
